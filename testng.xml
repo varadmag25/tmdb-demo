@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BS">
+  <test name="testngTest">
+    <parameter name="env" value="promotionmanger"/>
+    <classes>
+      <class name="com.sofi.TmdbTest" />
+      <!--<class name="testClasses.test_products_endpoint" />-->
+    </classes>
+  </test>
+</suite>

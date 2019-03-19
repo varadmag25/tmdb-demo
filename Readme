@@ -1,0 +1,6 @@
+Steps to run:
+1) Create theMovieDB Account (username & password)
+2) Create API Key
+
+Run the below command with those credentials.
+mvn clean install -Dapikey=<APIKEY> -Dusername=<USERNAME> -Dpassword=<PASSWORD>
